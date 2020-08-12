@@ -1,0 +1,36 @@
+.warna-bg {
+  background: linear-gradient(
+    to right,
+    rgba(91, 134, 229, 0.92),
+    rgba(54, 209, 220, 0.92)
+  );
+}
+
+.jumbotron-bg {
+  background-size: cover;
+  background: url(../img/bg.jpg);
+  background-size: 300px;
+}
+
+.nav-brand {
+  width: 4rem;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
